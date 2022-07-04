@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link {
+  list-style-type: none;
+}
+
+main {
+  left: 70%;
+  margin-left: 35%;
+}
+
+#navbar {
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  font-size: 1.8rem;
+  position: fixed;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    border-right: 5px solid black;
+  }
+}
